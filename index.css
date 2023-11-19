@@ -1,0 +1,90 @@
+.container {
+    min-height: inherit;
+}
+
+.res_img {
+    margin-top: 60px;
+}
+
+#carouselHome {
+    margin-top: 60px;
+    height: 500px;
+}
+
+#carouselHome img {
+    height: 500px;
+}
+
+.carousel-caption h5 {
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 4em;
+}
+
+main {
+    min-height: 600px;
+}
+
+.main h2 {
+    font-size: xx-small;
+}
+
+.left_home {
+    border: 2px solid rgb(29, 234, 152);
+    border-radius: 10px;
+    min-height: 400px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.right_home {
+    border: 2px solid rgb(247, 142, 184);
+    border-radius: 10px;
+    min-height: 400px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.strip {
+    min-height: 400px;
+    background-image: url("images/summer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(29, 234, 152);
+    font-weight: bold;
+    font-size: x-large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.strip h2 {
+    font-size: 4em;
+}
+
+.strip a {
+    color: rgb(247, 142, 184);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.bottom_main {
+    min-height: 500px;
+}
+
+.box {
+    min-height: 400px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(247, 142, 184);
+    font-size: larger;
+    transition: 200ms;
+}
+
+.link:hover {
+    transform: scale(1.2, 1.2);
+}

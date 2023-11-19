@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        &gt>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+
+    <header class="container-fluid d-flex align-items-center position-fixed">
+        <!-- nav lg -->
+        <nav class="container d-flex justify-content-between align-items-center">
+            <h2 class="logo">
+                Ice Cream
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart-half" viewBox="0 0 16 16">
+                    <path
+                        d="M8 2.748v11.047c3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </h2>
+            <div class="links d-none d-lg-flex">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a>
+                <a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a>
+                <a href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+                <a href="contact.html"><i class="fa fa-commenting" aria-hidden="true"></i> Contact</a>
+            </div>
+
+            <!-- nav mobile -->
+            <button class="btn-nav-bar navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fa fa-commenting" aria-hidden="true"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="container">
+            <h1 class="headlines text-center my-1 pt-5">Gallery</h1>
+            <h2 class="headlines mt-4">Photos</h2>
+            <div class="container my-5 row justify-content-center w-auto">
+                <a href="images/1.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-2 m-1"></a>
+                <a href="images/2.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-4 m-1"></a>
+                <a href="images/3.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-2 m-1"></a>
+                <a href="images/4.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-3 m-1"></a>
+                <a href="images/5.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-6 m-1"></a>
+                <a href="images/6.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-2 m-1 mx-md-2"></a>
+                <a href="images/7.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-3 m-1"></a>
+                <a href="images/8.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-3 m-1 me-md-4"></a>
+                <a href="images/9.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-8 m-1"></a>
+                <a href="images/10.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-3 m-1"></a>
+                <a href="images/11.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-5 m-1 ms-md-2 me-md-3"></a>
+                <a href="images/12.jpg" data-Lightbox="lambo-img" class="image col-12 col-sm-5 col-md-3 m-1"></a>
+            </div>
+
+            <h2 class="headlines">Videos</h2>
+            <div class="container videos row justify-content-center justify-content-md-evenly w-auto">
+                <iframe height="200" src="https://www.youtube.com/embed/SBk74N_zjFQ?si=X1EAdwCBgny1996W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col-12 col-md-5 mt-5"></iframe>
+
+                <iframe height="200" src="https://www.youtube.com/embed/7gJIyHnD710?si=AWlzEIFaGxeSKxNR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="col-12 col-md-5 my-5"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <section class="container d-flex flex-column justify-content-center text-center">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> Chani Viner 2023</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/chani-viner-27a49a21a/" target="_blank"><i
+                        class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+main {
+    min-height: 700px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.about_shop {
+    min-height: 300px;
+    border: 2px solid rgb(29, 234, 152);
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.about_person {
+    min-height: 200px;
+    border: 2px solid rgb(247, 142, 184);
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}

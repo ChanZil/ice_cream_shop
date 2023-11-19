@@ -1,0 +1,87 @@
+body {
+    background: rgb(221, 247, 255);
+}
+
+.container {
+    height: inherit;
+}
+
+.headlines {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+/* nav lg */
+
+header {
+    background: rgba(255, 255, 255, 0.648);
+    height: 60px;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(247, 142, 184);
+    font-size: 2em;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding-left: 32px;
+    font-size: large;
+}
+
+nav {
+    min-height: 80px;
+    transition: 100ms;
+    position: relative;
+}
+
+nav a:hover {
+    color: rgb(29, 234, 152);
+    transform: scale(1.2, 1.2);
+}
+
+/* nav mobile */
+
+.offcanvas {
+    background: rgba(255, 255, 255, 0.648);
+}
+
+.nav-item {
+    margin: 10px;
+    transition: 100ms;
+}
+
+.nav-item a:hover {
+    color: rgb(29, 234, 152);
+    transform: translateX(10px);
+    font-weight: bold;
+}
+
+.btn-nav-bar {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+
+.offcanvas-header {
+    background: rgb(29, 234, 152);
+    height: 60px;
+}
+
+/* footer */
+
+footer .container{
+    min-height: 100px;
+    border-top: 1px solid black;
+}
+
+footer .icons a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 8px;
+}

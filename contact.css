@@ -1,0 +1,56 @@
+main{
+    min-height: 600px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.top_left_contact {
+    height: 200px;
+    color: black;
+    border-radius: 10px;
+}
+
+.top_right_contact {
+    height: 150px;
+    border: rgb(29, 234, 152) 2px solid;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form_contact {
+    min-height: 300px;
+    border: rgb(247, 142, 184) 2px solid;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.inputs {
+    min-height: 300px;
+}
+
+.form-control {
+    background: none;
+    border: 2px solid rgb(247, 142, 184);
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 13px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.btn_form {
+    color: black;
+    border: 2px solid rgb(247, 142, 184);
+    border-radius: 10px;
+    background: none;
+}
+
+.btn_form:hover {
+    background: rgb(247, 142, 184);
+}
